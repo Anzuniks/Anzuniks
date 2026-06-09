@@ -1,16 +1,20 @@
-## Hi there 👋
+## 💫 About Me
+Toisen vuoden ICT-insinööriopiskelija Metropoliassa.  
 
-<!--
-**Anzuniks/Anzuniks** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Koodausfilosofiani perustuu vahvasti 80/20-sääntöön: teen 80 % koodauksesta itse manuaalisesti pitääkseni arkkitehtuurin ja ohjat omissa käsissäni, ja käytän tekoälyä 20 % rutiinitehtävien nopeuttamiseen.
 
-Here are some ideas to get you started:
+## 💻 Tech Stack
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=ffdd54)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🚀 Current Projects
+1. **Bureaucracy Decoder AI** – Lokaali full-stack tekoälysovellus, joka kääntää viranomaisasiakirjoja FastAPI:n, NLLB-mallin ja OCR:n avulla.  
+2. **Quantix Logistics** – Logistiikka-alan web-sovellus.
+
+## 📫 How to reach me
+- GitHub: [@Anzuniks](https://github.com/Anzuniks)
