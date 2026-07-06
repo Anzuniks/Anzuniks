@@ -24,6 +24,9 @@ Koodausfilosofiani nojaa vahvasti **80/20-sääntöön**: teen 80 % työstä –
 
 ---
 
+Sertifikaatit
+https://www.datacamp.com/certificate/AIEDA0015567264379
+
 ## 🚀 Pääprojektit
 
 ### 1. ByrokratianKuormituksenV-hennys (Bureaucracy Decoder AI)
