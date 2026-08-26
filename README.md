@@ -1,6 +1,6 @@
 # Moikka 👋
 
-Olen toisen vuoden ICT-insinööriopiskelija Metropoliassa. Keskityn opinnoissani ja projekteissani laaja-alaiseen Full-Stack -web-kehitykseen, tietokanta-arkkitehtuureihin sekä tekoäly- ja koneoppimisratkaisuihin. 
+Olen ICT-insinööriopiskelija Metropoliassa. Keskityn opinnoissani ja projekteissani laaja-alaiseen Full-Stack -web-kehitykseen, tietokanta-arkkitehtuureihin sekä tekoäly- ja koneoppimisratkaisuihin. 
 
 Koodausfilosofiani nojaa vahvasti **80/20-sääntöön**: teen 80 % työstä – arkkitehtuurin, ydinlogiikan ja ongelmanratkaisun – itse manuaalisesti pitääkseni langat tiukasti omissa käsissäni. Tekoälyä hyödynnän työkaluina sen 20 % rutiinityön ja mekaanisen koodin generoinnin nopeuttamiseen. En ulkoista ymmärrystäni koneelle.
 
