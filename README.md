@@ -77,6 +77,4 @@ Olio-ohjelmoinnilla toteutettu simulaatio, jossa painopisteinä tietorakenteet j
 
 - [DataCamp: SERTIFIKAATIN NIMI](https://www.datacamp.com/certificate/AIEDA0015567264379)
 
-## 📫 Yhteystiedot
 
-andu.nuri@hotmail.com · [LinkedIn](https://linkedin.com/in/...)
