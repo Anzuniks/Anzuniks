@@ -1,12 +1,21 @@
 # Moikka, olen Anders 👋
 
-ICT-insinööriopiskelija (Metropolia), kiinnostuksen kohteina full-stack-kehitys, tekoälysovellukset ja tietoturva. Rakennan mieluiten asioita, jotka ratkaisevat oikean ongelman, kuten viranomaiskielen kääntäminen ymmärrettäväksi tai epäilyttävän käytöksen tunnistaminen valvontakamerakuvasta.
+ICT-insinööriopiskelija (Metropolia) ja entinen vartija. Rakennan full-stack-sovelluksia, tekoälyratkaisuja ja tietoturvatyökaluja, jotka ratkaisevat oikean ongelman: viranomaiskielen kääntäminen ymmärrettäväksi, epäilyttävän käytöksen tunnistaminen valvontakamerakuvasta tai SOC-analyytikon työnkulun sujuvoittaminen.
 
-**Miten käytän tekoälyä:** Käytän tekoälytyökaluja koodatessa aktiivisesti, mutta vastaan itse jokaisesta rivistä. Suunnittelen arkkitehtuurin ja ydinlogiikan itse, luen ja testaan tekoälyn tuottaman koodin enkä hyväksy mitään, mitä en ymmärrä. Tietoturvataustani takia tarkistan aina myös sen, onko koodi turvallista.
+Etsin parhaillaan harjoittelu- ja työpaikkoja tietoturvan, tekoälyn ja ohjelmistokehityksen parista.
+
+## 🤖 Miten käytän tekoälyä
+
+Käytän tekoälytyökaluja koodatessa aktiivisesti, mutta vastaan itse jokaisesta rivistä.
+
+- Suunnittelen arkkitehtuurin ja ydinlogiikan itse
+- Luen ja testaan kaiken tuotetun koodin, enkä hyväksy mitään mitä en ymmärrä
+- Tietoturvataustani takia tarkistan aina myös, onko koodi turvallista
 
 ## 💻 Tech stack
 
 **Kielet & full-stack**
+
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
@@ -16,6 +25,7 @@ ICT-insinööriopiskelija (Metropolia), kiinnostuksen kohteina full-stack-kehity
 ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
 
 **AI/ML & tietokannat**
+
 ![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white)
 ![Scikit-Learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/postgresql-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
@@ -23,6 +33,7 @@ ICT-insinööriopiskelija (Metropolia), kiinnostuksen kohteina full-stack-kehity
 ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
 
 **Työkalut & infra**
+
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Bash](https://img.shields.io/badge/bash-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
@@ -36,45 +47,40 @@ ICT-insinööriopiskelija (Metropolia), kiinnostuksen kohteina full-stack-kehity
 
 ## 🚀 Projektit
 
-### [Bureaucracy Decoder AI](https://github.com/Anzuniks/REPO-NIMI)
+### 🌍 Bureaucracy Decoder AI
 `Python` `FastAPI` `React` `TypeScript` `NLLB-200` `Tesseract OCR`
 
-Paikallisesti ajettava sovellus, joka lukee suomalaisen viranomaisasiakirjan (PDF tai kuva) ja kääntää sen käyttäjän valitsemalle kielelle. Kaikki käsittely tapahtuu omalla koneella, joten arkaluonteiset asiakirjat eivät päädy pilvipalveluihin.
+Paikallisesti ajettava sovellus, joka lukee suomalaisen viranomaisasiakirjan (PDF tai kuva) ja kääntää sen valitulle kielelle. Kaikki käsittely tapahtuu omalla koneella, joten arkaluonteiset asiakirjat eivät päädy pilvipalveluihin.
 
-- OCR: Tesseract + PyMuPDF, käännös: `nllb-200-distilled-600M` (Hugging Face Transformers)
+- **OCR:** Tesseract + PyMuPDF
+- **Käännös:** `nllb-200-distilled-600M` (Hugging Face Transformers)
 - Teksti palastellaan kappaleittain, jotta konteksti säilyy mallin syöterajan yli
 - Tukee myös oikealta vasemmalle luettavia kieliä (RTL)
 
-### [SecureOps Core – SOC-työnkulun demo](https://github.com/Anzuniks/defense-detection)
+### 🛡️ SecureOps Core – SOC-työnkulun demo
 `TypeScript` `React` `Node.js` `Express` `MongoDB` `Socket.IO` `FastAPI`
 
-Full-stack-sovellus, joka simuloi tietoturvaoperaatiokeskuksen (SOC) työnkulkua: hälytysten triage, tapausten hallinta playbookeilla, threat hunting -haku ja reaaliaikainen kojelauta.
+Full-stack-sovellus, joka simuloi tietoturvaoperaatiokeskuksen työnkulkua: hälytysten triage, tapausten hallinta playbookeilla, threat hunting -haku ja reaaliaikainen kojelauta.
 
-- JWT-autentikointi, reaaliaikaiset päivitykset Socket.IO:lla
+- JWT-autentikointi ja reaaliaikaiset päivitykset Socket.IO:lla
 - Erillinen Python/FastAPI-palvelu analysoi telemetriaa ja arvioi uhkatasoa
 - Oma red team -skripti tuottaa hyökkäystelemetriaa demoa varten
 
-### [CCTV AI Security Monitor](https://github.com/Anzuniks/REPO-NIMI)
+### 📹 CCTV AI Security Monitor
 `Python` `YOLOv8-pose` `OpenCV` `NumPy` `SQLite` `Telegram Bot API`
 
-Reaaliaikainen valvontatyökalu, joka tunnistaa web-kamerakuvasta asentotunnistuksen avulla esim. lyöntiliikkeet, äkkinäiset liikkeet ja taskusta ottamisen. Idea tuli vartijan työstä.
+Reaaliaikainen valvontatyökalu, joka tunnistaa web-kamerakuvasta asentotunnistuksen avulla esimerkiksi lyöntiliikkeet, äkkinäiset liikkeet ja taskusta ottamisen. Idea syntyi vartijan työstä.
 
-- Avainpisteistä lasketut, kehon kokoon normalisoidut piirteet → tunnistus toimii eri etäisyyksillä
+- Avainpisteistä lasketut, kehon kokoon normalisoidut piirteet, joten tunnistus toimii eri etäisyyksillä
 - Tilakone ja havaintohistoria vähentävät vääriä hälytyksiä
 - Hälytykset Telegramiin ja lokitus SQLiteen
 
-### [Quantix Logistics](https://github.com/Anzuniks/REPO-NIMI)
+### 🚚 Quantix Logistics
 `TypeScript` `React` `Node.js` `Express` `MySQL`
 
-Logistiikka-alan web-sovellus. Vastasin full-stack-integraatiosta: REST-rajapinnat, tietokantasuunnittelu ja frontend.
+Logistiikka-alan web-sovellus. Vastasin full-stack-integraatiosta: REST-rajapinnoista, tietokantasuunnittelusta ja frontendistä.
 
-### [Kauppakeskussimulaattori](https://github.com/Anzuniks/REPO-NIMI)
+### 🛍️ Kauppakeskussimulaattori
 `Java`
 
-Olio-ohjelmoinnilla toteutettu simulaatio, jossa painopisteinä tietorakenteet ja simulaatiologiikka.
-
-## 📜 Sertifikaatit
-
-- [DataCamp: SERTIFIKAATIN NIMI](https://www.datacamp.com/certificate/AIEDA0015567264379)
-
-
+Olio-ohjelmoinnilla toteutettu simulaatio, jonka painopisteinä ovat tietorakenteet ja simulaatiologiikka.
