@@ -1,20 +1,14 @@
-# Moikka, olen Anders 👋
+# Moikka, olen Anders
 
-ICT-insinööriopiskelija (Metropolia) ja entinen vartija. Rakennan full-stack-sovelluksia, tekoälyratkaisuja ja tietoturvatyökaluja, jotka ratkaisevat oikean ongelman: viranomaiskielen kääntäminen ymmärrettäväksi, epäilyttävän käytöksen tunnistaminen valvontakamerakuvasta tai SOC-analyytikon työnkulun sujuvoittaminen.
+ICT-insinööriopiskelija Metropoliassa. Olen kiinnostunut full-stack-kehityksestä, tekoälysovelluksista ja tietoturvasta. Ennen opintoja olin vartijana, ja se näkyy projekteissani: osa ideoista on lähtöisin suoraan siitä työstä.
 
-Etsin parhaillaan harjoittelu- ja työpaikkoja tietoturvan, tekoälyn ja ohjelmistokehityksen parista.
+Rakennan mieluiten asioita, jotka ratkaisevat jonkun oikean ongelman, esimerkiksi viranomaiskielen kääntämisen ymmärrettäväksi tai epäilyttävän käytöksen tunnistamisen kamerakuvasta.
 
-## 🤖 Miten käytän tekoälyä
+Käytän tekoälytyökaluja koodatessa, mutta vastaan itse jokaisesta rivistä. Suunnittelen arkkitehtuurin ja ydinlogiikan itse, luen ja testaan tekoälyn tuottaman koodin enkä hyväksy mitään, mitä en ymmärrä. Tietoturvataustani takia katson aina myös, onko koodi turvallista.
 
-Käytän tekoälytyökaluja koodatessa aktiivisesti, mutta vastaan itse jokaisesta rivistä.
+## Tech stack
 
-- Suunnittelen arkkitehtuurin ja ydinlogiikan itse
-- Luen ja testaan kaiken tuotetun koodin, enkä hyväksy mitään mitä en ymmärrä
-- Tietoturvataustani takia tarkistan aina myös, onko koodi turvallista
-
-## 💻 Tech stack
-
-**Kielet & full-stack**
+**Kielet ja full-stack**
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
@@ -24,7 +18,7 @@ Käytän tekoälytyökaluja koodatessa aktiivisesti, mutta vastaan itse jokaises
 ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
 
-**AI/ML & tietokannat**
+**AI/ML ja tietokannat**
 
 ![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white)
 ![Scikit-Learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
@@ -32,64 +26,48 @@ Käytän tekoälytyökaluja koodatessa aktiivisesti, mutta vastaan itse jokaises
 ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
 
-**Työkalut & infra**
+**Työkalut**
 
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Bash](https://img.shields.io/badge/bash-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
 ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 
-## 🔐 Tietoturva
+## Tietoturva
 
-- TryHackMe **Jr Penetration Tester** -polku suoritettu
-- CTF-haasteet ja bug bounty (HackerOne)
-- Päivittäinen ympäristö: Kali Linux · Burp Suite
+Olen suorittanut TryHackMen Jr Penetration Tester -polun ja tehnyt CTF-haasteita. Bug bountyja (HackerOne) opettelen vielä. Käytän päivittäin Kali Linuxia ja Burp Suitea.
 
-**Osaamisalueet** (ylläpidän omia muistiinpanoja ja cheatsheet-aineistoa näistä):
+Pidän omia muistiinpanoja ja cheatsheet-aineistoa pentestauksen perusteista (footprinting, enumeration, Nmap), web-haavoittuvuuksista (XSS, fuzzing, JavaScriptin deobfuskointi, WordPress), Linuxista, Windowsista ja PowerShellistä sekä SIEM-pohjaisesta valvonnasta.
 
-| Alue | Aiheet |
-|---|---|
-| Pentestauksen perusteet | Pentest-metodologia, Footprinting, Enumeration, Nmap |
-| Web-tietoturva | Web Applications, Web Requests, Web Fuzzing, JavaScript Deobfuscation, XSS, WordPress |
-| Järjestelmät & komentorivi | Linux, Bash, Windows, Windows Command Line, PowerShell |
-| Puolustus | Security Monitoring & SIEM Fundamentals |
+## Projektit
 
-## 🚀 Projektit
-
-### 🌍 Bureaucracy Decoder AI
+### Bureaucracy Decoder AI
 `Python` `FastAPI` `React` `TypeScript` `NLLB-200` `Tesseract OCR`
 
-Paikallisesti ajettava sovellus, joka lukee suomalaisen viranomaisasiakirjan (PDF tai kuva) ja kääntää sen valitulle kielelle. Kaikki käsittely tapahtuu omalla koneella, joten arkaluonteiset asiakirjat eivät päädy pilvipalveluihin.
+Sovellus, joka lukee suomalaisen viranomaisasiakirjan (PDF tai kuva) ja kääntää sen valitulle kielelle. Kaikki pyörii paikallisesti omalla koneella, koska asiakirjat voivat olla arkaluonteisia eikä niitä kuulu lähettää pilveen.
 
-- **OCR:** Tesseract + PyMuPDF
-- **Käännös:** `nllb-200-distilled-600M` (Hugging Face Transformers)
-- Teksti palastellaan kappaleittain, jotta konteksti säilyy mallin syöterajan yli
-- Tukee myös oikealta vasemmalle luettavia kieliä (RTL)
+OCR hoidetaan Tesseractilla ja PyMuPDF:llä, käännös tehdään `nllb-200-distilled-600M`-mallilla. Teksti pilkotaan kappaleisiin, jotta konteksti säilyy mallin syöterajan yli. Oikealta vasemmalle kirjoitettavat kielet toimivat myös.
 
-### 🛡️ SecureOps Core – SOC-työnkulun demo
+### SecureOps Core
 `TypeScript` `React` `Node.js` `Express` `MongoDB` `Socket.IO` `FastAPI`
 
-Full-stack-sovellus, joka simuloi tietoturvaoperaatiokeskuksen työnkulkua: hälytysten triage, tapausten hallinta playbookeilla, threat hunting -haku ja reaaliaikainen kojelauta.
+Demo tietoturvaoperaatiokeskuksen (SOC) työnkulusta: hälytysten triage, tapausten hallinta playbookeilla, threat hunting -haku ja reaaliaikainen kojelauta. Kirjautuminen tehty JWT:llä ja päivitykset kulkevat Socket.IO:lla.
 
-- JWT-autentikointi ja reaaliaikaiset päivitykset Socket.IO:lla
-- Erillinen Python/FastAPI-palvelu analysoi telemetriaa ja arvioi uhkatasoa
-- Oma red team -skripti tuottaa hyökkäystelemetriaa demoa varten
+Erillinen Python/FastAPI-palvelu analysoi telemetriaa ja arvioi uhkatasoa. Demoa varten kirjoitin myös oman red team -skriptin, joka tuottaa hyökkäysdataa.
 
-### 📹 CCTV AI Security Monitor
+### CCTV AI Security Monitor
 `Python` `YOLOv8-pose` `OpenCV` `NumPy` `SQLite` `Telegram Bot API`
 
-Reaaliaikainen valvontatyökalu, joka tunnistaa web-kamerakuvasta asentotunnistuksen avulla esimerkiksi lyöntiliikkeet, äkkinäiset liikkeet ja taskusta ottamisen. Idea syntyi vartijan työstä.
+Reaaliaikainen työkalu, joka tunnistaa web-kamerakuvasta asentotunnistuksella esimerkiksi lyöntiliikkeitä, äkkinäisiä liikkeitä ja taskusta ottamista. Idea tuli vartijan työstä.
 
-- Avainpisteistä lasketut, kehon kokoon normalisoidut piirteet, joten tunnistus toimii eri etäisyyksillä
-- Tilakone ja havaintohistoria vähentävät vääriä hälytyksiä
-- Hälytykset Telegramiin ja lokitus SQLiteen
+Piirteet lasketaan kehon avainpisteistä ja normalisoidaan kehon koolla, jotta tunnistus toimii eri etäisyyksillä. Tilakone ja havaintohistoria vähentävät vääriä hälytyksiä. Hälytykset menevät Telegramiin ja tapahtumat tallentuvat SQLiteen.
 
-### 🚚 Quantix Logistics
+### Quantix Logistics
 `TypeScript` `React` `Node.js` `Express` `MySQL`
 
-Logistiikka-alan web-sovellus. Vastasin full-stack-integraatiosta: REST-rajapinnoista, tietokantasuunnittelusta ja frontendistä.
+Logistiikka-alan web-sovellus. Vastasin full-stack-integraatiosta eli REST-rajapinnoista, tietokantasuunnittelusta ja frontendistä.
 
-### 🛍️ Kauppakeskussimulaattori
+### Kauppakeskussimulaattori
 `Java`
 
-Olio-ohjelmoinnilla toteutettu simulaatio, jonka painopisteinä ovat tietorakenteet ja simulaatiologiikka.
+Olio-ohjelmoinnilla tehty simulaatio, jossa keskityttiin tietorakenteisiin ja simulaatiologiikkaan.
