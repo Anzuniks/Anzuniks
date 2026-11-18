@@ -45,6 +45,15 @@ Käytän tekoälytyökaluja koodatessa aktiivisesti, mutta vastaan itse jokaises
 - CTF-haasteet ja bug bounty (HackerOne)
 - Päivittäinen ympäristö: Kali Linux · Burp Suite
 
+**Osaamisalueet** (ylläpidän omia muistiinpanoja ja cheatsheet-aineistoa näistä):
+
+| Alue | Aiheet |
+|---|---|
+| Pentestauksen perusteet | Pentest-metodologia, Footprinting, Enumeration, Nmap |
+| Web-tietoturva | Web Applications, Web Requests, Web Fuzzing, JavaScript Deobfuscation, XSS, WordPress |
+| Järjestelmät & komentorivi | Linux, Bash, Windows, Windows Command Line, PowerShell |
+| Puolustus | Security Monitoring & SIEM Fundamentals |
+
 ## 🚀 Projektit
 
 ### 🌍 Bureaucracy Decoder AI
